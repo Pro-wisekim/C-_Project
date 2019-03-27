@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include <string>
 
 using namespace std;
 
@@ -25,7 +26,8 @@ int main(void)
   cout<<"선택 : ";
   cin>>choice;
 
-  switch(choice){
+  switch(choice)
+  {
     case MAKE:
       Create_Account();
       break;
