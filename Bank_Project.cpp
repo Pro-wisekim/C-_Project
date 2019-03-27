@@ -26,7 +26,8 @@ int main(void)
   cout<<"선택 : ";
   cin>>choice;
 
-  switch(choice){
+  switch(choice)
+  {
     case MAKE:
       Create_Account();
       break;
